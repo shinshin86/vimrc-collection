@@ -1,0 +1,26 @@
+{
+  "name": "create-next-example-app",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "fmt": "prettier --write '**/*.{js,ts,json,md,html}'"
+  },
+  "prettier": {
+    "singleQuote": true
+  },
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0"
+  },
+  "devDependencies": {
+    "@types/next": "^7.0.6",
+    "@types/react": "^16.7.18",
+    "@zeit/next-typescript": "^1.1.1",
+    "fork-ts-checker-webpack-plugin": "^0.5.2",
+    "prettier": "^1.15.3",
+    "typescript": "^3.2.2"
+  }
+}
